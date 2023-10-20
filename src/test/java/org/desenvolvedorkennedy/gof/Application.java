@@ -1,10 +1,10 @@
-package org.desenvolvedorkennedy.labpadroesprojetospring;
+package org.desenvolvedorkennedy.gof;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LabPadroesProjetoSpringApplicationTests {
+class Application {
 
 	@Test
 	void contextLoads() {
