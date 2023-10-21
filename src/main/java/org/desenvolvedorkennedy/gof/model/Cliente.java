@@ -42,4 +42,8 @@ public class Cliente {
         return this.Endereco;
     }
 
+    public void setEndereco(Endereco endereco){
+        this.Endereco = endereco;
+    }
+
 }

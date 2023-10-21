@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * 
  * @author <a href="httsp://portfolio.desenvolvedor-kennedy.com.br">desenvolvedorkennedy</a>
  */
-@FeignClient(name = "viacep", url = "https//viacep.com.br/ws")
+@FeignClient(name = "viacep", url = "https://viacep.com.br/ws")
 public interface ViaCepService {
 
     @GetMapping("/{cep}/json/")
